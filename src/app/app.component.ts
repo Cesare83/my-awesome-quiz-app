@@ -1,10 +1,12 @@
+//-------------------------------IMPORT MODULES---------------------------------
 import { Component } from '@angular/core';
+
+
+//-----------------------------------COMPONENT----------------------------------
 
 @Component({
   selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss']
+  template: '<router-outlet></router-outlet>'
 })
-export class AppComponent {
-  title = 'my-awesome-quiz-app';
-}
+
+export class AppComponent {}
