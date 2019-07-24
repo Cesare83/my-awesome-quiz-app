@@ -1,1 +1,6 @@
-<p>welcome works!</p>
+<div class="welcome">
+  <h1>Welcome to the language quiz!</h1>
+    <div *ngFor="let quiz of quizzes">
+      <a [routerLink]="['/', quiz.name]" class="btn btn-primary">{{quiz.name}}</a>
+    </div>
+</div>
