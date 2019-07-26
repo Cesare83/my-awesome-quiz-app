@@ -1,0 +1,50 @@
+.welcome {
+  display: grid;
+  grid-template-rows: 15% 85%;
+  width: 100%;
+  height: 100%;
+}
+
+.welcome-title-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.quiz-choice, .first-row, .second-row {
+  display: grid;
+  grid-template-rows: 50% 50%;
+}
+
+.flag {
+  width: 50%;
+  height: auto;
+  margin-top: 5%;
+  margin-left: 25%;
+}
+
+@media only screen and (min-width: 750px) {
+
+  .flag {
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+  .quiz-choice {
+    display: grid;
+    grid-template-rows: 50% 50%;
+  }
+
+  .first-row, .second-row {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .flag {
+    width: 80%;
+    height: auto;
+    margin-top: 10%;
+    margin-left: 10%;
+  }
+
+}

@@ -1,6 +1,52 @@
 <div class="welcome">
-  <h1>Welcome to the language quiz!</h1>
-    <div *ngFor="let quiz of quizzes">
-      <a [routerLink]="['/', quiz.name]" class="btn btn-primary">{{quiz.name}}</a>
+  <div class="welcome-title-container">
+    <h1 class="welcome-title">Prove your language skills!</h1>
+  </div>
+  <div class="quiz-choice">
+    <div class="first-row">
+      <div class="flag-container">
+        <a [routerLink]="['/spanish']">
+          <svg class="flag" width="400" height="300" viewBox="0 0 400 400">
+            <polygon fill="#ff1a1a" points="0,0 266,0 0,200"/>
+            <polygon fill="#ffdd1a" points="266,0 400,0  400,100 133,300 0,300 0,200"/>
+            <polygon fill="#ff1a1a" points="400,100 400,300 133,300"/>
+            <text class="flag-text" font-size="40px" text-anchor="middle" x="200" y="370">spanish</text>
+          </svg>
+        </a>
+      </div>
+      <div class="flag-container">
+        <a [routerLink]="['/french']">
+          <svg class="flag" width="400" height="300" viewBox="0 0 400 400">
+            <polygon fill="#0000cc" points="0,0 266,0 0,200"/>
+            <polygon fill="#fff" points="266,0 400,0  400,100 133,300 0,300 0,200"/>
+            <polygon fill="#e60000" points="400,100 400,300 133,300"/>
+            <text class="flag-text" font-size="40px" text-anchor="middle" x="200" y="370">french</text>
+          </svg>
+        </a>
+
+      </div>
     </div>
+    <div class="second-row">
+      <div class="flag-container">
+        <a [routerLink]="['/italian']">
+          <svg class="flag" width="400" height="300" viewBox="0 0 400 400">
+            <polygon fill="#1e7b1e" points="0,0 266,0 0,200"/>
+            <polygon fill="#fff" points="266,0 400,0  400,100 133,300 0,300 0,200"/>
+            <polygon fill="#e60000" points="400,100 400,300 133,300"/>
+            <text class="flag-text" font-size="40px" text-anchor="middle" x="200" y="370">italian</text>
+          </svg>
+        </a>
+      </div>
+      <div class="flag-container">
+        <a [routerLink]="['/german']">
+          <svg class="flag" width="400" height="300" viewBox="0 0 400 400">
+            <polygon fill="#000" points="0,0 266,0 0,200"/>
+            <polygon fill="#ff1a1a" points="266,0 400,0  400,100 133,300 0,300 0,200"/>
+            <polygon fill="#ffdd1a" points="400,100 400,300 133,300"/>
+            <text class="flag-text" font-size="40px" text-anchor="middle" x="200" y="370">german</text>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </div>
 </div>
