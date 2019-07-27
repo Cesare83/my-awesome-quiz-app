@@ -1,0 +1,29 @@
+[
+  {
+    "label": "What is 'Hello' in french?",
+    "choices": [
+      {"value": "Au revoir", "correct": false},
+      {"value": "Bonjour", "correct": true},
+      {"value": "Tant pis", "correct": false},
+      {"value": "Salut!", "correct": false}
+    ]
+  },
+  {
+    "label": "How do you say 'Goodbye' in french?",
+    "choices": [
+      {"value": "Au revoir", "correct": true},
+      {"value": "Bonjour", "correct": false},
+      {"value": "Tant pis", "correct": false},
+      {"value": "Salut!", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 'how are you?' in french?",
+    "choices": [
+      {"value": "Au revoir", "correct": true},
+      {"value": "Bonjour", "correct": false},
+      {"value": "Tant pis", "correct": false},
+      {"value": "Salut!", "correct": false}
+    ]
+  }
+]
