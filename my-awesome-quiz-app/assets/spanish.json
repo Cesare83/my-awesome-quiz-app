@@ -1,29 +1,38 @@
 [
   {
-    "label": "What is 'Hello' in french?",
+    "label": "What is 'Hello' in Spanish?",
     "choices": [
-      {"value": "Au revoir", "correct": false},
-      {"value": "Bonjour", "correct": true},
-      {"value": "Tant pis", "correct": false},
-      {"value": "Salut!", "correct": false}
+      {"value": "Adios", "correct": false},
+      {"value": "Hola", "correct": true},
+      {"value": "Buenos Dias", "correct": false},
+      {"value": "Gracias", "correct": false}
     ]
   },
   {
-    "label": "How do you say 'Goodbye' in french?",
+    "label": "How do you say 'Goodbye' in Spanish?",
     "choices": [
-      {"value": "Au revoir", "correct": true},
-      {"value": "Bonjour", "correct": false},
-      {"value": "Tant pis", "correct": false},
-      {"value": "Salut!", "correct": false}
+      {"value": "Adios", "correct": true},
+      {"value": "Hola", "correct": false},
+      {"value": "Buenos dias", "correct": false},
+      {"value": "Gracias", "correct": false}
     ]
   },
   {
-    "label": "What is 'how are you?' in french?",
+    "label": "What does 'Buenos dias' mean in English?",
     "choices": [
-      {"value": "Au revoir", "correct": true},
-      {"value": "Bonjour", "correct": false},
-      {"value": "Tant pis", "correct": false},
-      {"value": "Salut!", "correct": false}
+      {"value": "Goodbye", "correct": false},
+      {"value": "Hi", "correct": false},
+      {"value": "Good morning", "correct": true},
+      {"value": "Thank you", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 'thank you' in Spanish?",
+    "choices": [
+      {"value": "Adios", "correct": false},
+      {"value": "Hola", "correct": false},
+      {"value": "Buenos Dias", "correct": false},
+      {"value": "Gracias", "correct": true}
     ]
   }
 ]

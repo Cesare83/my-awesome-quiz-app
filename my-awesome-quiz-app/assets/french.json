@@ -1,29 +1,38 @@
 [
   {
-    "label": "What is 'Hello' in french?",
+    "label": "What is 'Hello' in French?",
     "choices": [
       {"value": "Au revoir", "correct": false},
       {"value": "Bonjour", "correct": true},
       {"value": "Tant pis", "correct": false},
-      {"value": "Salut!", "correct": false}
+      {"value": "Merci", "correct": false}
     ]
   },
   {
-    "label": "How do you say 'Goodbye' in french?",
+    "label": "How do you say 'Goodbye' in French?",
     "choices": [
       {"value": "Au revoir", "correct": true},
       {"value": "Bonjour", "correct": false},
       {"value": "Tant pis", "correct": false},
-      {"value": "Salut!", "correct": false}
+      {"value": "Merci", "correct": false}
     ]
   },
   {
-    "label": "What is 'how are you?' in french?",
+    "label": "What is 'Good morning' in French?",
     "choices": [
-      {"value": "Au revoir", "correct": true},
+      {"value": "Au revoir", "correct": false},
+      {"value": "Bonjour", "correct": true},
+      {"value": "Tant pis", "correct": false},
+      {"value": "Merci", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 'thank you' in French?",
+    "choices": [
+      {"value": "Au revoir", "correct": false},
       {"value": "Bonjour", "correct": false},
       {"value": "Tant pis", "correct": false},
-      {"value": "Salut!", "correct": false}
+      {"value": "Merci", "correct": true}
     ]
   }
 ]
