@@ -1,7 +1,11 @@
 <div class="results">
-  <h2>Results</h2>
-  <div class="answer" *ngFor="let a of answers.values" [ngClass]="{correct: a.correct}">
+  <div class="results-container">
+    <h1>Results</h1>
+  </div>
+  <div class="answer" *ngFor="let a of answers.values" [ngStyle]="{'color': a.correct ? 'green' : 'red'}" [ngClass]="{correct: a.correct}">
     {{a.value}}
   </div>
-  <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+  <div class="backlink">
+    <a routerLink="/welcome" class="btn btn-primary">Choose another quiz</a>
+  </div>
 </div>
