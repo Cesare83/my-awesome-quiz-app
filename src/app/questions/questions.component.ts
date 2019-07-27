@@ -17,14 +17,14 @@ import { Quiz, Answers, Choice, Question } from '../quiz.model';
 export class QuestionsComponent implements OnInit {
 
   public quiz: Quiz;
-  private answers: Answers;
+  public answers: Answers;
   public questions: Question[];
-  private currentQuestionIndex: number;
+  public currentQuestionIndex: number;
 
-  private showResults = false;
+  public showResults = false;
 
   // inject both the active route and the questions service
-  constructor(private route: ActivatedRoute, private questionsService: QuestionsService) {}
+  constructor(public route: ActivatedRoute, public questionsService: QuestionsService) {}
 
   ngOnInit() {
 
