@@ -1,0 +1,38 @@
+[
+  {
+    "label": "What is 'Hello' in German?",
+    "choices": [
+      {"value": "Auf Wiedersehen", "correct": false},
+      {"value": "Hallo", "correct": true},
+      {"value": "Guten Tag", "correct": false},
+      {"value": "Danke", "correct": false}
+    ]
+  },
+  {
+    "label": "How do you say 'Goodbye' in German?",
+    "choices": [
+      {"value": "Auf Wiedersehen", "correct": true},
+      {"value": "Hallo", "correct": false},
+      {"value": "Guten Tag", "correct": false},
+      {"value": "Danke", "correct": false}
+    ]
+  },
+  {
+    "label": "What does 'Guten Tag' mean in English?",
+    "choices": [
+      {"value": "Goodbye", "correct": false},
+      {"value": "Hi", "correct": false},
+      {"value": "Good morning", "correct": true},
+      {"value": "Thank you", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 'thank you' in German?",
+    "choices": [
+      {"value": "Auf Wiedersehen", "correct": false},
+      {"value": "Hallo", "correct": false},
+      {"value": "Guten Tag", "correct": false},
+      {"value": "Danke", "correct": true}
+    ]
+  }
+]

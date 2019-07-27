@@ -1,0 +1,38 @@
+[
+  {
+    "label": "What is 'Hello' in Italian?",
+    "choices": [
+      {"value": "Arrivederci", "correct": false},
+      {"value": "Ciao", "correct": true},
+      {"value": "Buongiorno", "correct": false},
+      {"value": "Grazie", "correct": false}
+    ]
+  },
+  {
+    "label": "How do you say 'Goodbye' in Italian?",
+    "choices": [
+      {"value": "Arrivederci", "correct": true},
+      {"value": "Ciao", "correct": false},
+      {"value": "Buongiorno", "correct": false},
+      {"value": "Grazie", "correct": false}
+    ]
+  },
+  {
+    "label": "What does 'Buongiorno' mean in English?",
+    "choices": [
+      {"value": "Goodbye", "correct": false},
+      {"value": "Hi", "correct": false},
+      {"value": "Good morning", "correct": true},
+      {"value": "Thank you", "correct": false}
+    ]
+  },
+  {
+    "label": "What is 'thank you' in Italian?",
+    "choices": [
+      {"value": "Arrivederci", "correct": false},
+      {"value": "Ciao", "correct": false},
+      {"value": "Buongiorno", "correct": false},
+      {"value": "Grazie", "correct": true}
+    ]
+  }
+]
