@@ -6,7 +6,7 @@
     <div class="form-group">
       <label *ngFor="let choice of question.choices">
       <input type="radio" [value]="choice" formControlName="choice" id="radio-buttons">
-      <span>{{choice.value}}</span>
+      <span class="answers">{{choice.value}}</span>
       </label>
     </div>
   </form>
